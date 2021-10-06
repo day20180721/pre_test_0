@@ -1,0 +1,8 @@
+55
+610
+6765
+75025
+832040
+9227465
+
+Process finished with exit code 0

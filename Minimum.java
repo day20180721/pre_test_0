@@ -5,9 +5,12 @@ import java.util.List;
 
 public class Minimum {
     public static void main(String[] args) {
-        int[] nums = new int[]{  0, 0, 0 };
+        int[] nums = new int[]{ -1, -1, -2, 4, 3 };
         System.out.println(excute(nums));
-
+        nums = new int[]{-1, 0 };
+        System.out.println(excute(nums));
+        nums = new int[]{  0, 0, 0 };
+        System.out.println(excute(nums));
     }
     public static int excute(int[] args){
         List<Integer> negative = new ArrayList<>();
@@ -23,7 +26,6 @@ public class Minimum {
             }
             if(args[i] != 0) {
                 temp *=args[i];
-                System.out.println("temp:"+temp);
             }
             if(args[i] < 0){
                 negative.add(args[i]);

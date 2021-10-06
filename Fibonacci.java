@@ -3,8 +3,12 @@ package com.example.demo.exam;
 public class Fibonacci {
     public static void main(String[] args) {
         Fibonacci fibonacci = new Fibonacci();
-        int excute = fibonacci.excute(2);
-        System.out.println(excute);
+        System.out.println(fibonacci.excute(10));
+        System.out.println(fibonacci.excute(15));
+        System.out.println(fibonacci.excute(20));
+        System.out.println(fibonacci.excute(25));
+        System.out.println(fibonacci.excute(30));
+        System.out.println(fibonacci.excute(35));
     }
     public int excute(int index){
         if(index == 0 )return 0;
