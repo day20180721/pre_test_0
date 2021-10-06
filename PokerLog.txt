@@ -1,13 +1,13 @@
-Player 1 的牌有 : Card(id=8, suit=4, number=2)
-Player 1 的牌有 : Card(id=39, suit=3, number=13)
-Player 1 的牌有 : Card(id=6, suit=3, number=2)
-Player 1 的牌有 : Card(id=6, suit=1, number=6)
-Player 1 的牌有 : Card(id=12, suit=4, number=3)
-Player 2 的牌有 : Card(id=9, suit=1, number=9)
-Player 2 的牌有 : Card(id=3, suit=3, number=1)
-Player 2 的牌有 : Card(id=5, suit=1, number=5)
-Player 2 的牌有 : Card(id=52, suit=4, number=13)
-Player 2 的牌有 : Card(id=27, suit=3, number=9)
+Player 1 的牌有 : Card(id=36, suit=3, number=12)
+Player 1 的牌有 : Card(id=10, suit=2, number=5)
+Player 1 的牌有 : Card(id=2, suit=2, number=1)
+Player 1 的牌有 : Card(id=11, suit=1, number=11)
+Player 1 的牌有 : Card(id=12, suit=1, number=12)
+Player 2 的牌有 : Card(id=24, suit=4, number=6)
+Player 2 的牌有 : Card(id=20, suit=2, number=10)
+Player 2 的牌有 : Card(id=3, suit=1, number=3)
+Player 2 的牌有 : Card(id=33, suit=3, number=11)
+Player 2 的牌有 : Card(id=36, suit=4, number=9)
 開始判斷同花順
 非同花順，牌不滿五種
 開始判斷鐵支
@@ -20,7 +20,7 @@ Player 2 的牌有 : Card(id=27, suit=3, number=9)
 非順子，牌不滿五種
 開始判斷pair
 開始判斷同花順
-非同花順，牌不滿五種
+非同花順，顏色超過一種
 開始判斷鐵支
 非鐵支，牌不等於兩種
 開始判斷葫蘆
@@ -28,10 +28,12 @@ Player 2 的牌有 : Card(id=27, suit=3, number=9)
 開始判斷同花
 非同花，牌堆有大於一種的花色
 開始判斷順子
-非順子，牌不滿五種
+判斷是否為順子
 開始判斷pair
-player 1 組合為:Level(kind=5, suit=4, number=2)
-player 2 組合為:Level(kind=5, suit=1, number=9)
-player 2 勝利
+非pair，牌堆不能有五種不同的值
+開始判斷單張
+player 1 組合為:Level(kind=5, suit=3, number=12)
+player 2 組合為:Level(kind=6, suit=3, number=11)
+player 1 勝利
 
 Process finished with exit code 0
